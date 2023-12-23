@@ -119,6 +119,8 @@ static usb_device_id_t tripplite_usb_device_table[] = {
 	{ USB_DEVICE(TRIPPLITE_VENDORID, 0x3016), smart1500lcdt_scale },
 	/* e.g. TrippLite AVR750U (newer unit) */
 	{ USB_DEVICE(TRIPPLITE_VENDORID, 0x3024), smart1500lcdt_scale },
+    	/* e.g. TrippLite SMART1500PSGLCD  (newer unit) */
+	{ USB_DEVICE(TRIPPLITE_VENDORID, 0x3028), smart1500lcdt_scale },
 	/* e.g. TrippLite SmartOnline SU1500RTXL2UA (older unit?) */
 	{ USB_DEVICE(TRIPPLITE_VENDORID, 0x4001), battery_scale_1dot0 },
 	/* e.g. TrippLite SmartOnline SU6000RT4U? */
